@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+:root {
+    --primary-color: #F3C98B;
+    --secondary-color: #C46D5E;
+    --primary-text-color: #F56960;
+    --secondary-text-color: #BAD7F2;
+}
+
+body, html {
+    background-color: var(--primary-color);
+
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 0, 4px;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    background-color: var(--secondary-color);
+
+    border: 2px solid #A44C3D;
+    border-radius: 4px;
+
+    margin: 5%;
+
+    text-align: center;
+}
+
+img {
+    width: 25%;
+    height: 25%;
+}
+
+.color-text-primary {
+    color: var(--primary-text-color);
+}
+
+.color-text-secondary {
+    color: var(--secondary-text-color);
+}
+
+#success-indicator {
+    display: none;
+}
+
+#pokemon-display {
+    filter: brightness(0)
+}
